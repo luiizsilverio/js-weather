@@ -38,7 +38,7 @@ const getCityData = async cityName => {
 }
 
 const getWeatherUrl = key =>
-   `http://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=${APIkey}&language=pt-br`
+   `https://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=${APIkey}&language=pt-br`
 
 /********************************************
  * getCityWeather (cityKey)
