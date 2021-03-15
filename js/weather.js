@@ -14,7 +14,7 @@
 const APIkey = 'ezfnfGbOcLOhuSuGPUwvFpos2cq9NEzv'
 
 const getCityUrl = city =>
-   `http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${APIkey}&q=${city}`
+   `https://dataservice.accuweather.com/locations/v1/cities/search?apikey=${APIkey}&q=${city}`
   
 /********************************************
  * getCityData (cityName)
