@@ -16,8 +16,8 @@ const buscaCidade = async (cityName) => {
   cidade.textContent = LocalizedName;
   clima.textContent = WeatherText;
   temperatura.textContent = Temperature.Metric.Value;
-  timeIcon.innerHTML = `<img src="./src/icons/${WeatherIcon}.svg" />`
-  timeImg.src = IsDayTime ? './src/day.svg' : './src/night.svg'
+  timeIcon.innerHTML = `<img src="./images/icons/${WeatherIcon}.svg" />`
+  timeImg.src = IsDayTime ? './images/day.svg' : './images/night.svg'
   
   if (Key) {
     localStorage.setItem('cidade', cityName);
