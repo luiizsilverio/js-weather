@@ -1,11 +1,4 @@
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/luiizsilverio/js-weather/blob/master/images/icons/1.svg" />
-    </td>    
-    <td>Js-Weather</td>
-  </tr>
-</table>
+# JS-WEATHER 🌦 🌤 🌧 🌥
 
 ## Conteúdo
 * [Sobre o Projeto](#sobre-o-projeto)
